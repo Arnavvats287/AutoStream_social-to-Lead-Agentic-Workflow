@@ -1,3 +1,5 @@
+#just used to check if the key is actually workiing ot not
+
 from langchain_google_genai import ChatGoogleGenerativeAI
 from dotenv import load_dotenv
 load_dotenv()
