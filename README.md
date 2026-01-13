@@ -80,9 +80,9 @@ Intent Detection
 
 ## Why LangGraph?
 
-*It permits explicit state control over several turns.
-*It is also appropriate for multi-step processes such as lead capture, that is very important for the project.
-*It does not allow the agent to act as a stateless chatbot,hence making this a quality project.
+* It permits explicit state control over several turns.
+* It is also appropriate for multi-step processes such as lead capture, that is very important for the project.
+* It does not allow the agent to act as a stateless chatbot,hence making this a quality project.
 
 In contrast to the straightforward prompt-based bots, LangGraph allows one to easily regulate the sequencing of the conversation. It makes the conversation easy to control.
 
@@ -93,14 +93,14 @@ In contrast to the straightforward prompt-based bots, LangGraph allows one to ea
 agent maintains a shared state object containing:
 
 * Conversation messages
-* Detected intent of the user
+* detected intent of the user
 * User name
 * User email
 * User platform
 
 if a user shows high intent (eg: wants to buy a plan), the agent **locks into lead capture mode**. During this:
 
-* Intent is not re-detected
+* intent isnt redetected
 * user inputs are directly stored in the state
 * The flow keeps continuing until all essential data is collected.
 
