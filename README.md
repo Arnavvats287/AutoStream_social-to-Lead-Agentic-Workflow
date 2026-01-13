@@ -1,27 +1,28 @@
 
 # AutoStream AI Agent
 This project implements a production-style AI Sales & support agent, built using langraph, langchain,gemini, and Retrieval augmented generation.
+## demo video
+https://youtu.be/_EEPI1-G4PM
+## How to run the project locally
 
-## How to Run the Project Locally
-
-### 1. Clone/Download the Project
+### 1. clone/download the Project
 
 Place the project folder on your local machine.
 
-### 2. Create and Activate a Virtual Environment
+### 2. create and activate a Virtual Environment
 
 ```bash
 python -m venv venv
 venv\\Scripts\\activate  
 ```
 
-### 3. Install the Requirements
+### 3. install the requirements
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Set Environment Variables
+### 4. set Environment Variables
 
 Create a `.env` file in the root directory:
 
@@ -29,7 +30,7 @@ Create a `.env` file in the root directory:
 GOOGLE_API_KEY=your_api_key
 ```
 
-### 5. Run the Project file in terminal
+### 5. run the project file in terminal
 
 ```bash
 python main.py
